@@ -135,6 +135,9 @@ class App extends React.Component {
               <div>
                 <Button onClick={() => {                                    
                   this.setState({content: JSON.stringify(this.state.list)})
+                  fetch('http://localhost:3005/save', {method: 'POST', body: JSON.stringify(this.state.list)}).then(res => {
+                    console.log(res)
+                  })
                 }}>内容</Button>
               </div>
             )            

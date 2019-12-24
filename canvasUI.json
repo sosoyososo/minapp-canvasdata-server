@@ -1,0 +1,44 @@
+{
+  "text": {
+    "text": "哈哈哈哈哈哈",
+    "x": 0,
+    "y": 40,
+    "fontSize": 40,
+    "fontColor": "red",
+    "bold": true,
+    "wrap": true,
+    "maxWidth": 100,
+    "lineSpace": 20
+  },
+  "line": {
+    "x": 100,
+    "y": 100,
+    "w": 400,
+    "h": 0,
+    "color": "red",
+    "lineWidth": 1
+  },
+  "rect": {
+    "x": 100,
+    "y": 100,
+    "w": 200,
+    "h": 200,
+    "r": 40,
+    "topLeft": true,
+    "topRight": true,
+    "bottomLeft": true,
+    "bottomRight": true,
+    "color": "red",
+    "lineWidth": 10
+  },
+  "image": {
+    "url": "https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTL17Fgcm1sk7DjVmWZia2icLXG5spnzDFDTyXR1RY1yWa0XMPP4BKVVXtoKp7sbbuiaALaVVOAwRW4Nw/132",
+    "x": 100,
+    "y": 100,
+    "w": 200,
+    "h": 200,
+    "r": 40,
+    "color": "red",
+    "lineWidth": 10
+  }
+}

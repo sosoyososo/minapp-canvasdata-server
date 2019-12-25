@@ -29,7 +29,8 @@ export const componentsProperties = {
     bottomLeft: false,
     bottomRight: false,
     color: 'black',
-    lineWidth: 0
+    lineWidth: 0,
+    bgColor:"",
   },
   image: {
     url: '',

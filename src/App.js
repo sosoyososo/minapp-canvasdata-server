@@ -130,6 +130,7 @@ class App extends React.Component {
           }}
           columns={columns} 
           dataSource={datasource}
+          pagination={false}
           footer={() => {
             return (
               <div>

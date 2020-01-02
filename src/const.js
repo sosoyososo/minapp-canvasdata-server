@@ -75,7 +75,7 @@ export function getAllProperties() {
 }
 
 export function convertValueForKey(key, value) {  
-  let numKeyList = ['x','y','h','r','fontSize','maxWidth', 'lineSpace', 'lineWidth']
+  let numKeyList = ['x','y','h','w','r','fontSize','maxWidth', 'lineSpace', 'lineWidth']
   let boolKeyList = ["bold", "wrap","topLeft", "topRight", "bottomLeft", "bottomRight"]
   if (numKeyList.includes(key)) {
     return Number.parseInt(value)

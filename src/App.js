@@ -10,7 +10,7 @@ class App extends React.Component {
     let list = this.state && this.state.list;       
     if (!list) list = [];
     let item = {}
-    item[type] = componentsProperties[type]
+    item[type] = JSON.parse(JSON.stringify(componentsProperties[type]))
     list.push(item)
     let propertiesCount = this.getPropertiesMaxCount(list);
     this.setState({list, propertiesCount})
